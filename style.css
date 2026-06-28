@@ -1,0 +1,262 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* NAVBAR */
+.navbar {
+    margin: 0 !important;
+    padding: 10px 0 !important;
+}
+
+/* LOGO TEXT */
+.logo-text {
+    font-family: 'Pacifico', cursive;
+    font-size: 38px;
+    color: black !important;
+    text-decoration: none;
+}
+
+/* NAV LINKS */
+.nav-link {
+    margin-left: 15px;
+    padding: 8px 12px !important;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    background: #ffe8b5;
+    color: black !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* HERO SECTION */
+.hero {
+    margin: 0 !important;
+    padding: 30px !important;
+    width: 100%;
+    height: 100vh;
+}
+
+.hero-box {
+    width: 100%;
+    height: 100%;
+
+    background: url("Images/hero.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-radius: 25px;
+
+    display: flex;
+    align-items: center;
+    /* vertical middle */
+    justify-content: flex-start;
+    /* left side */
+    padding-left: 60px;
+    /* move text from edge */
+}
+
+/* HERO TEXT (LEFT SIDE) */
+.hero-text {
+    margin-left: 80px;
+    max-width: 500px;
+}
+
+/* HERO TITLE */
+.hero-text h1 {
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 1.1;
+    color: #ffe8b5;
+}
+
+/* HERO SMALL TEXT */
+.hero-text p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #ffe8b5;
+}
+
+/* CATEGORY IMAGE */
+.cat-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* CATEGORY BOX */
+.category-box {
+    padding: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.category-box:hover {
+    background: #ffe8b5;
+    transform: translateY(-5px);
+}
+
+/* FOOD CARDS */
+.card {
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-body h6 {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.card-body p {
+    font-size: 15px;
+    color: #444;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+/* CHEF SECTION */
+.chef-section {
+    background: #f8fff1;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 60px;
+}
+
+.chef-section h2 {
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.chef-section p {
+    font-size: 20px;
+}
+
+.chef-section img {
+    width: 100%;
+    height: 95vh;
+    object-fit: contain;
+}
+
+/* BIG TITLES */
+.text-center h2 {
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.big-title {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* INSTAGRAM BUTTON */
+.insta-btn {
+    display: inline-block;
+    background: black;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+.insta-btn:hover {
+    background: #ff5c8a;
+    transform: scale(1.05);
+}
+
+/* EXTRA CARDS */
+.extra-card {
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.extra-card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.18);
+}
+
+.extra-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.extra-card .card-body {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* FOOTER */
+footer {
+    background: #fafafa;
+    margin-top: 50px;
+    padding: 30px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* CONTACT IMAGE */
+.contact-img {
+    max-height: 800px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+/* ABOUT PAGE TITLE */
+.about-title {
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+}
+
+/* ABOUT MAIN SECTION */
+.about-hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 60px 80px;
+    box-sizing: border-box;
+}
+
+/* ABOUT TEXT */
+.about-text h3 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 18px;
+}
+
+/* ABOUT IMAGE */
+.about-img {
+    width: 100%;
+    max-height: 80vh;
+    object-fit: contain;
+}
